@@ -1,0 +1,42 @@
+# ---- Build output ----
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+
+# Compiled / linker artifacts
+*.exe
+*.dll
+*.obj
+*.o
+*.out
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.res
+
+# ---- Visual Studio ----
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.aps
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+*.FileListAbsolute.txt
+
+# ---- vcpkg ----
+vcpkg_installed/
+vcpkg.applocal.log
+
+# ---- Misc ----
+*.zip
