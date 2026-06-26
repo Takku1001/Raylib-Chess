@@ -1,7 +1,7 @@
 #ifndef BISHOP_H
 #define BISHOP_H
 
-#include "BSAI24066_Piece.h"
+#include "Piece.h"
 
 class Bishop : public Piece
 {

@@ -1,5 +1,5 @@
-#include "BSAI24066_Pawn.h"
-#include "BSAI24066_Board.h"
+#include "Pawn.h"
+#include "Board.h"
 #include <iostream>
 
 using namespace std;

@@ -1,5 +1,5 @@
-#include "BSAI24066_King.h"
-#include "BSAI24066_Board.h"
+#include "King.h"
+#include "Board.h"
 #include <iostream>
 
 using namespace std;

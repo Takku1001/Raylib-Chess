@@ -1,7 +1,7 @@
 #ifndef BOARD_H
 #define BOARD_H
 
-#include "BSAI24066_Header.h"
+#include "Utils.h"
 #include <iostream>
 
 class Piece;

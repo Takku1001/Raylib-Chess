@@ -12,16 +12,16 @@ A two-player chess game in C++ using [raylib](https://www.raylib.com/), built wi
 ## Tech Stack
 
 - C++17, raylib 5.5
-- Visual Studio 2022 (MSVC v143), dependencies via [vcpkg](https://vcpkg.io/)
-- Windows x64
+- CMake build, dependencies via [vcpkg](https://vcpkg.io/)
+- Tested on Windows x64 (MSVC)
 
 ## Structure
 
 ```
-src/        # source (.cpp) — board engine, piece logic, rendering
-include/    # headers (.h)
-assets/     # board and piece sprites (PNG)
-CHESS-3.sln # Visual Studio solution
+src/            # source (.cpp) — board engine, piece logic, rendering
+include/        # headers (.h)
+assets/         # board and piece sprites (PNG)
+CMakeLists.txt  # build configuration
 ```
 
 ## Build & Run
@@ -29,9 +29,16 @@ CHESS-3.sln # Visual Studio solution
 1. Install raylib via vcpkg:
    ```powershell
    vcpkg install raylib:x64-windows
-   vcpkg integrate install
    ```
-2. Open `CHESS-3.sln` in Visual Studio 2022, set platform to **x64**, and press **F5**.
+2. Configure and build, pointing CMake at the vcpkg toolchain:
+   ```powershell
+   cmake -B build -DCMAKE_TOOLCHAIN_FILE=<path-to-vcpkg>/scripts/buildsystems/vcpkg.cmake
+   cmake --build build --config Debug
+   ```
+3. Run the executable (assets are copied next to it automatically):
+   ```powershell
+   ./build/Debug/chess.exe
+   ```
 
 ## Controls
 

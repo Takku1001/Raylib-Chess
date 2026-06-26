@@ -1,12 +1,12 @@
 
 #include "raylib.h"
-#include "BSAI24066_Board.h"
-#include "BSAI24066_Piece.h"
-#include "BSAI24066_Queen.h"
-#include "BSAI24066_Bishop.h"
-#include "BSAI24066_Knight.h"
-#include "BSAI24066_Rook.h"
-#include "BSAI24066_Header.h"
+#include "Board.h"
+#include "Piece.h"
+#include "Queen.h"
+#include "Bishop.h"
+#include "Knight.h"
+#include "Rook.h"
+#include "Utils.h"
 #include <string>
 #include <map>
 #include <sstream>

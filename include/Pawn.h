@@ -1,7 +1,7 @@
 #ifndef PAWN_H
 #define PAWN_H
 
-#include "BSAI24066_Piece.h"
+#include "Piece.h"
 
 class Board;
 

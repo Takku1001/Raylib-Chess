@@ -1,12 +1,12 @@
-#include "BSAI24066_Board.h"
-#include "BSAI24066_Piece.h"
-#include "BSAI24066_Rook.h"
-#include "BSAI24066_Knight.h"
-#include "BSAI24066_Bishop.h"
-#include "BSAI24066_Queen.h"
-#include "BSAI24066_King.h"
-#include "BSAI24066_Pawn.h"
-#include "BSAI24066_Header.h"
+#include "Board.h"
+#include "Piece.h"
+#include "Rook.h"
+#include "Knight.h"
+#include "Bishop.h"
+#include "Queen.h"
+#include "King.h"
+#include "Pawn.h"
+#include "Utils.h"
 #include <iostream>
 
 using namespace std;
